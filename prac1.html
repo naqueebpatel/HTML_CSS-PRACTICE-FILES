@@ -1,0 +1,123 @@
+<!-- PROFILE CARD DESIGN -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="top-icons">
+            <i class="fas fa-long-arrow-alt-left"></i>
+            <i class="fas fa-ellipsis-v"></i>
+            <i class="far fa-heart"></i>
+        </div>
+        
+        <div class="profile">
+            <img src="https://images.unsplash.com/photo-1484186139897-d5fc6b908812?ixlib=rb-0.3.5&s=9358d797b2e1370884aa51b0ab94f706&auto=format&fit=crop&w=200&q=80%20500w" class="thumbnail">
+            <div class="check"><i class="fas fa-check"></i></div>
+            <h3 class="name">Beverly Little</h3>
+            <p class="title">Javascript Developer</p>
+            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque aliquam aliquid porro!</p>
+            <button type="button" class="btn">Hire Me</button>
+        </div>
+    </div>
+
+    
+</body>
+<style>
+       * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 80vh;
+	display: flex;
+	position: relative;
+	background: #eeeeec;
+  align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+    gap:10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 100%;
+}
+
+    .wrapper {
+  width: 300px;
+  height: 380px;
+  background: #FDFEFF;
+	transition: background .6s ease;
+	border-radius: 10px;
+	padding: 20px 20px 20px 20px;
+	box-shadow: 0 8px 40px rgba(#000000, .2);
+	
+	.profile {
+		margin-top: 2.2em;
+		position: relative;
+		
+		
+		
+		
+		.thumbnail {
+			width: 124px;
+			height: 124px;
+			display: flex;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 1.5em;
+			border-radius: 100%;
+			box-shadow: $shadow;
+		}
+		.name {
+			color: #2D354A;
+			font-size: 24px;
+			font-weight: 600;
+			text-align: center;
+		}
+		
+		.title {
+			color: #7C8097;
+			font-size: .75em;
+			font-weight: 300;
+			text-align: center;
+			padding-top: .5em;
+			padding-bottom: .7em;
+			letter-spacing: 1.5px;
+			text-transform: uppercase;
+		}
+		
+		.description {
+			color: #080911;
+			font-size: 14px;
+			font-weight: 300;
+			text-align: center;
+			margin-bottom: 1.3em;
+		}
+		
+		.btn {
+			color: black;
+			width: 130px;
+			height: 42px;
+			outline: none;
+			border: none;
+			display: block;
+			cursor: pointer;
+			font-weight: 300;
+			margin-left: auto;
+			margin-right: auto;
+			border-radius: 70px;
+			box-shadow: 0 13px 26px rgba(#000, .16), 0 3px 6px rgba(#000, .16);
+			background: $purple-gradient;
+		}
+}
+</style>
+</html>
